@@ -1,0 +1,6 @@
+name: Vox Theme
+type: theme
+description: Technical test Vox;
+base theme: false;
+package: Other
+core_version_requirement: ^9
