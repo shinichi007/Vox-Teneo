@@ -1,0 +1,16 @@
+vox_module.settings:
+  type: config_object
+  label: 'Vox Setting'
+  mapping:
+    title:
+      type: string
+      label: 'Title'
+    subtitle:
+      type: string
+      label: 'Subtitle'
+    banner:
+      type: string
+      label: 'Banner Image'
+    search:
+      type: boolean
+      label: 'Search'

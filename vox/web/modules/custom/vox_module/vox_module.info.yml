@@ -1,0 +1,5 @@
+name: vox_module
+type: module
+description: Manage content
+package: vox
+core_version_requirement: 9.x

@@ -1,0 +1,9 @@
+vox_module.settings:
+  path: '/admin/config/services/vox'
+  defaults:
+    _title: 'Vox Setting'
+    _form: 'Drupal\vox_module\Form\VoxSettingsForm'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: true
