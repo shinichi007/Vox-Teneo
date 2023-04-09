@@ -49,7 +49,6 @@ class VoxSettingsForm extends ConfigFormBase {
 
     $form['search'] = [
       '#type' => 'checkbox',
-      '#required' => TRUE,
       '#title' => $this->t('Show Search'),
       '#default_value' => $config->get('search'),
     ];
