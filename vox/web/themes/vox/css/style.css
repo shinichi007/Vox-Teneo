@@ -68,3 +68,42 @@
  .region-footer-first, .region-footer-second, .region-footer-third {
   flex: 0 1 30%;
  }
+
+ .banner-img{
+  width: 100%;
+  min-width: 1400px;
+  height: 300px;
+ }
+
+ .banner-desc{
+  margin: auto;
+  width: 100%;
+  top:10px;
+  position: absolute;
+  color: white;
+  text-align: center;
+ }
+
+#block-voxeventlatestblock{
+  float: left;
+  width: 70%;
+}
+
+#block-voxnewslatestblock{
+  float: left;
+  width: 30%;
+}
+
+#event{
+  padding: 5px;
+  float: left;
+  width: 49%;
+}
+
+#news{
+  padding: 5px;
+}
+
+.event-img{
+  height: 200px;
+}

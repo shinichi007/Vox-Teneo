@@ -1,0 +1,21 @@
+<div>
+  <h5>
+    News
+  </h5>
+  {% for node in data %}
+  <div id="news">
+    <img src="{{ file_url(node.field_news_image.entity.fileuri) }} " class="event-img">
+    <div class="event-desc">
+      <h1>
+        {{ node.field_publish_date.value }}
+      </h1>
+      <p>
+        {{ node.body.value }}
+      </p>
+      <a href="/node/{{ node.id }}">
+        detail
+      </a>
+    </div>
+  </div>
+  {% endfor %}
+</div>
