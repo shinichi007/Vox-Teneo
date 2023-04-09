@@ -23,5 +23,15 @@ function vox_module_theme($existing, $type, $theme, $path) {
         'data' => NULL,
       ],
     ],
+    'vox_news_side' => [
+      'variables' => [
+        'data' => NULL,
+      ],
+    ],
+    'vox_event_side' => [
+      'variables' => [
+        'data' => NULL,
+      ],
+    ],
   ];
 }

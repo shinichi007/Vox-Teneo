@@ -6,11 +6,12 @@
   <div id="news">
     <img src="{{ file_url(node.field_news_image.entity.fileuri) }} " class="event-img">
     <div class="event-desc">
-      <h1>
-        {{ node.field_publish_date.value }}
-      </h1>
+      <h5>
+        {{ node.field_publish_date.value | date("d F Y") }}
+      </h5>
       <p>
-        {{ node.body.value }}
+        {% set text = node.body.value|striptags %}
+        {{ text|length > 300 ? text|slice(0, 300)|raw ~ '...' : text|raw }}
       </p>
       <a href="/node/{{ node.id }}">
         detail

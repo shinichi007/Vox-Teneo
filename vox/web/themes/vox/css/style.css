@@ -69,6 +69,10 @@
   flex: 0 1 30%;
  }
 
+.btn.btn-primary.mb-3{
+  color: black;
+}
+
  .banner-img{
   width: 100%;
   min-width: 1400px;
@@ -97,7 +101,7 @@
 #event{
   padding: 5px;
   float: left;
-  width: 49%;
+  width: 47%;
 }
 
 #news{
@@ -106,4 +110,23 @@
 
 .event-img{
   height: 200px;
+}
+
+#main{
+  padding: 10px;
+}
+
+.listevent-img{
+  height: 150px;
+}
+
+.right--sidebar{
+  float: left;
+  width: 40%;
+}
+
+#list{
+  border-bottom: 2px dotted;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
