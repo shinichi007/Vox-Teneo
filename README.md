@@ -40,13 +40,15 @@ $ composer install
 
 
 ## Usage
-1. Override Configuration
+1. Override Configuration [path_to_sql/db_vox_teneo.sql](https://github.com/shinichi007/Vox-Teneo/blob/main/db_vox_teneo.sql)
 ```
-$ mysql -u root -p [database_name] < [path_to_sql/db_vox_teneo.sql](https://github.com/shinichi007/Vox-Teneo/blob/main/db_vox_teneo.sql)
+$ mysql -u root -p [database_name] < path_to_sql/db_vox_teneo.sql
 ```
 2. Login as an administrator
 ```
 $ [domain]/user/login
+$ username : admin
+$ pass     : 12345678
 ```
 3. Setup Vox Setting
 ```
